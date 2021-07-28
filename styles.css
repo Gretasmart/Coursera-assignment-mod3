@@ -1,0 +1,75 @@
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  color: green;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: blue;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+h1 {
+	text-align: left;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+}
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
